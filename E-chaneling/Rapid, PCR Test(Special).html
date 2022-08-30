@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kings Hospital</title>
+  <link rel="Stylesheet" type="text/css" href="Rapid-PCR Test.css">
+  <script src="Rapid-PCR Test.js"></script>
+</head>
+<header>
+  <div id="Gall">
+    <div id="Green">
+      <!--Location LOGO-->
+      <div>
+      <img src="https://www.freeiconspng.com/thumbs/location-icon-png/location-icon-map-png--1.png" alt="Place" height="15px" width="15px" class="Image">
+      <a href="https://www.google.com/maps/place/Kings+Hospital+Colombo/@6.8950539,79.8794006,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25a2bdcb662c5:0xcf6dc296a34a0c21!8m2!3d6.8950539!4d79.8794006" target="_blank" id="Find">Find Us.</a>
+      Hotline:+94 11 7743743</div>
+    </div>
+  </div>
+</header>
+
+<body>
+  <div id="Navigation">
+    <div id="Head">
+      <img src="https://www.kingshospital.lk/images/logo.png" alt="LOGO" height="100px" width="200px" id="LOGO">
+    </div>
+    <div class="dropdown">
+      <nav id="dropdown">
+        <ul>
+          <div class="n1">
+            <li><a href="../Home2.html" id="nav1">Home</a></li>
+            <li><a href="../Home2.html">Services</a></li>
+            <li><a href="../Home2.html">Departments</a></li>
+            <li><a href="../Home2.html">Contact Us</a></li>
+            <li><a href="../laboratory 2.0/laboratary.html">Laboratory</a></li>
+            <li><a href="e-Channelling New.html" id="appointment">Appointment</a></li>
+            <li><a href="Rapid, PCR Test(Special).html" id="pcr">Rapid PCR (special)</a></li>
+          </div>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <form name="formNo1" action="#" onsubmit="return fillError()" method="post">
+    <p class="discription"><strong>Rapid-PCR Test</strong><br>(Bandaranayake International Airport)<br><u>Fill the
+        following form.</u></p>
+    <ol>
+      <li>
+        <label><br>1. Name :</label>
+        <br>
+        <input type="text" name="paName" id="pN01">
+        <div class="errorMsg" id="error01"></div>
+      </li>
+      <br>
+      <li>
+        <div class="appL">
+          <label>2. Salutation :</label>
+          <br>
+          <select name="salutation" id="sa01">
+            <option value="">Select your Salutation.</option>
+            <option value="10">Mr.</option>
+            <option value="11">Mrs.</option>
+            <option value="12">Master </option>
+            <option value="13">Miss.</option>
+            <option value="14">Ms.</option>
+            <option value="15">Rev.</option>
+            <option value="16">Baby </option>
+            <option value="17">Bof.</option>
+            <option value="18">Dr.</option>
+            <option value="19">Dr. Mrs.</option>
+            <option value="20">Prof.</option>
+            <option value="21">Hon.</option>
+          </select>
+        </div>
+        <div class="appR">
+          <label>3. Age :</label>
+          <br>
+          <input type="text" name="age" id="age01">
+          <div class="errorMsg" id="error02"></div>
+        </div>
+      </li>
+      <br>
+      <br>
+      <br>
+      <li>
+        <div class="appL">
+          <label>4. Date of Birth :</label>
+          <br>
+          <input type="date" name="dOB" id="dOB01">
+          <div class="errorMsg" id="error03"></div>
+        </div>
+        <div class="appR">
+          <label>5. Mobile No. :</label>
+          <br>
+          <input type="text" name="mNumber" id="mB01">
+          <div class="errorMsg" id="error04"></div>
+        </div>
+      </li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <li>
+        <div class="appL">
+          <label>6. Gender :</label>
+          <br>
+          <select name="gender" id="gn01">
+            <option value="">Select your Gender.</option>
+            <option value="30">Male</option>
+            <option value="31">Female</option>
+          </select>
+        </div>
+        <div class="appR">
+          <label>7. Address :</label>
+          <br>
+          <textarea rows="5"></textarea>
+        </div>
+      </li>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <li>
+        <div class="appL">
+          <label>8. Nationality :</label>
+          <br>
+          <input type="text" name="nation" id="nation01">
+          <div class="errorMsg" id="error05"></div>
+        </div>
+        <div class="appR">
+          <label>9. E-mail :</label>
+          <br>
+          <input type="text" name="e-mail" id="em01">
+          <div class="errorMsg" id="error06"></div>
+        </div>
+      </li>
+      <br>
+      <br>
+      <br>
+      <li>
+        <div id="endInput">
+          <div class="appL">
+            <label>10. Flight Number :</label>
+            <br>
+            <input type="text" name="fNumber" id="fN01">
+            <div class="errorMsg" id="error07"></div>
+          </div>
+          <div class="appR">
+            <label>11. Passport Number :</label>
+            <br>
+            <input type="text" name="pNumber" id="passN01">
+            <div class="errorMsg" id="error08"></div>
+          </div>
+        </div>
+      </li>
+      <li>
+        <center>
+          <button type="submit" id="btn">Get your Appointment.</button>
+          <button type="reset" id="btn">Cancel</button>
+        </center>
+      </li>
+    </ol>
+
+  </form>
+  <div class="attention">
+    <strong id="tc"><u>Terms & Conditions.</u></strong>
+    <ul class="attention">
+      <li>All passengers must carry a valid PCR report done 48 hours prior to the flight</li>
+      <li>Please note that the duration to receive the Rapid PCR report will take at least 1 hour.</li>
+      <li>Kings hospital will not be liable for any delay occurred if passengers arrive late for the Rapid PCR.</li>
+      <li>Passengers are requested to arrive at the Kings Rapid PCR Lab 6 hours prior to departure to avoid anydelays.
+      </li>
+      <li>For information, please call us on 071 638 3726.</li>
+    </ul>
+  </div>
+</body>
+<footer>
+  <div class="Fimg">
+    <img src="https://www.kingshospital.lk/images/humanbody-white.png" height="500px" width="300px">
+  </div>
+  <div class="FTC">
+    <h2 id="FHead">Contact With US</h2>
+    <div class="Fcont">
+      <img src="https://pnggrid.com/wp-content/uploads/2021/12/Office-Phone-Icon-PNG-Transparent-Background.png"
+        alt="Phone" height="50px" width="50px" class="FImage">
+      <p class="Ftext">Hotline: 075 852 3498</p>
+      <br>
+    </div>
+    <div class="Fcont">
+      <img src="https://icon-library.com/images/black-email-icon-png/black-email-icon-png-19.jpg" alt="Email"
+        height="50px" width="50px" class="FImage">
+      <p class="Ftext">info@kingshospital.lk</p>
+      <br>
+    </div>
+    <div class="Fcont">
+      <img src="https://www.freeiconspng.com/thumbs/location-icon-png/location-icon-map-png--1.png" alt="Place"
+        height="50px" width="50px" class="FImage">
+      <p class="Ftext">18/A,<br>
+        Evergreen Park Rd,<br>
+        Narahenpita,<br>
+        Colombo 05,<br>
+        Sri Lanka.</p>
+    </div>
+    <br>
+  </div>
+  <a href="https://www.google.com/maps/place/Kings+Hospital+Colombo/@6.8949418,79.8770575,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25a2bdcb662c5:0xcf6dc296a34a0c21!8m2!3d6.8949365!4d79.8792462"
+    target="_blank"><img src="https://www.kingshospital.lk/images/map-tosite.jpg" height="300px" width="100%"> </a>
+  <div id="Register">© All rights reserved. Kings Hospital.</div>
+</footer>
+
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kings Hospital</title>
+  <link rel="Stylesheet" type="text/css" href="e-Channeling New.css">
+  <script src="e-Channeling New.js"></script>
+</head>
+<header>
+  <div id="Gall">
+    <div id="Green">
+      <!--Location LOGO-->
+      <div>
+      <img src="https://www.freeiconspng.com/thumbs/location-icon-png/location-icon-map-png--1.png" alt="Place" height="15px" width="15px" class="Image">
+      <a href="https://www.google.com/maps/place/Kings+Hospital+Colombo/@6.8950539,79.8794006,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25a2bdcb662c5:0xcf6dc296a34a0c21!8m2!3d6.8950539!4d79.8794006" target="_blank" id="Find">Find Us.</a>
+      Hotline:+94 11 7743743</div>
+    </div>
+  </div>
+</header>
+
+<body>
+  <div id="Navigation">
+    <div id="Head">
+      <img src="https://www.kingshospital.lk/images/logo.png" alt="LOGO" height="100px" width="200px" id="LOGO">
+    </div>
+    <div class="dropdown">
+      <nav>
+        <ul>
+          <li><a href="../Home2.html" id="nav1">Home</a></li>
+          <li><a href="../Home2.html">Services</a></li>
+          <li><a href="../Home2.html">Departments</a></li>
+          <li><a href="../Home2.html">Contact Us</a></li>
+          <li><a href="../laboratory 2.0/laboratary.html">Laboratory</a></li>
+          <li><a href="e-Channelling New.html" id="app">Appointment</a></li>
+          <li><a href="Rapid, PCR Test(Special).html" id="pcr">Rapid PCR (Special)</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <form>
+    <p class="discription"><strong>Welcome to our E-Channeling service.<br>How may we serve you?</strong></p>
+    <select name="selection" id="selection" onchange='mainSwitch()'>
+      <option value="">Select your category.</option>
+      <option value="1">Channeling a doctor</option>
+      <option value="2">Medical Report</option>
+      <option value="4">Appointment for Laboratory Test</option>
+    </select>
+  </form>
+  <div id="form01">
+    <form name="form001" id="form001" action="#" onsubmit="return error01()" method="post">
+      <p class="discription">Channelling A Doctor.</p>
+      <select name="doctorName" id="dName">
+        <option value="">Select your doctor.</option>
+        <option value="7">Dr.Akash</option>
+        <option value="8">Dr.Bhanuka</option>
+        <option value="9">Dr.Lalitha</option>
+        <option value="10">Dr.Siriwardena</option>
+      </select>
+      <select name="specialization" id="sp">
+        <option value="">Select Specialization</option>
+        <option value="19">Cancer Surgeon</option>
+        <option value="110">Men's Health</option>
+        <option value="111">Cardiac Surgeon</option>
+        <option value="112">Child and Adolescent Psychologist</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit" id="btn"><span>Search</span></button>
+      <br>
+      <button type="reset" id="btn">Reset</button>
+    </form>
+  </div>
+  <div id="form02">
+    <form name="form002" id="form002" action="#" onsubmit="return error02()" method="post">
+      <p class="discription">Medical Report.</p>
+      <select name="provinceName" id="prName01" onchange="prSwitch01()">
+        <option value="">Select your Province.</option>
+        <option value="14">North Province</option>
+        <option value="15">South Province</option>
+        <option value="16">East Province</option>
+        <option value="24">Western Province</option>
+        <option value="25">North Center Province</option>
+        <option value="26">Central Province</option>
+        <option value="30">Sabaragamuwa Province</option>
+        <option value="31">North West Province</option>
+        <option value="32">Uva Province</option>
+      </select>
+      <center>
+        <select name="districtName01" id="np01">
+          <option value="">Select your district.</option>
+          <option value="33">Jaffna</option>
+          <option value="34">Mannar</option>
+          <option value="35">Mullaitivu</option>
+          <option value="36">Vavuniya</option>
+          <option value="37">Kilinochchi</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName02" id="sp01">
+          <option value="">Select your district.</option>
+          <option value="38">Galle</option>
+          <option value="39">Matar</option>
+          <option value="40">Hambanthota</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName03" id="ep01">
+          <option value="">Select your district.</option>
+          <option value="42">Ampara</option>
+          <option value="43">Batticaloa</option>
+          <option value="44">Trincomalee</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName04" id="wp01">
+          <option value="">Select your district.</option>
+          <option value="117">Colombo</option>
+          <option value="20">Gampaha</option>
+          <option value="21">Kaluthara</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName05" id="ncp01">
+          <option value="">Select your district.</option>
+          <option value="46">Anuradhapura</option>
+          <option value="47">Polonnaruva</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName06" id="cp01">
+          <option value="">Select your district.</option>
+          <option value="48">Kandy</option>
+          <option value="49">Matale</option>
+          <option value="50">Nuwara-Eliya</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName07" id="sgp01">
+          <option value="">Select your district.</option>
+          <option value="51">Kegalle</option>
+          <option value="52">Ratnapura</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName08" id="nwp01">
+          <option value="">Select your district.</option>
+          <option value="53">Kurunegala</option>
+          <option value="54">Puttalama</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName09" id="up01">
+          <option value="">Select your district.</option>
+          <option value="55">Badulla</option>
+          <option value="56">Monaragala</option>
+        </select>
+      </center>
+      <div id="redNotice"></div>
+      <input class="referNumber" id="refNo" placeholder="Enter your Ref.Number.">
+      <select name="purpose" id="sp">
+        <option value="">For what purpose do you want?</option>
+        <option value="211">For Driving Liecen</option>
+        <option value="212">For University</option>
+        <option value="217">For Sports</option>
+        <option value="70">Others</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit" id="btn"><span>Get the appointment.</span></button>
+      <br>
+      <button type="reset" id="btn">Reset</button>
+    </form>
+  </div>
+  <div id="form04">
+    <form name="form004" id="form004" action="#" onsubmit="return error04()" method="post">
+      <p class="discription">Appointment for Laboratory Test</p>
+      <select name="testType01" id="tType01">
+        <option value="">Select the Test.</option>
+        <option value="90">Colesterol Test</option>
+        <option value="91">Blood Sugar Test</option>
+        <option value="92">Urinalysis Test</option>
+        <option value="93">Lipid Panel Test</option>
+      </select>
+      <select name="provinceName" id="prName02" onchange="prSwitch02()">
+        <option value="">Select your Province.</option>
+        <option value="14">North Province</option>
+        <option value="15">South Province</option>
+        <option value="16">East Province</option>
+        <option value="24">Western Province</option>
+        <option value="25">North Center Province</option>
+        <option value="26">Central Province</option>
+        <option value="30">Sabaragamuwa Province</option>
+        <option value="31">North West Province</option>
+        <option value="32">Uva Province</option>
+      </select>
+      <center>
+        <select name="districtName1" id="wp02">
+          <option value="">Select your district.</option>
+          <option value="117">Colombo</option>
+          <option value="20">Gampaha</option>
+          <option value="21">Kaluthara</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName2" id="np02">
+          <option value="">Select your district.</option>
+          <option value="33">Jaffna</option>
+          <option value="34">Mannar</option>
+          <option value="35">Mullaitivu</option>
+          <option value="36">Vavuniya</option>
+          <option value="37">Kilinochchi</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName3" id="sp02">
+          <option value="">Select your district.</option>
+          <option value="38">Galle</option>
+          <option value="39">Matar</option>
+          <option value="40">Hambanthota</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName4" id="ep02">
+          <option value="">Select your district.</option>
+          <option value="42">Ampara</option>
+          <option value="43">Batticaloa</option>
+          <option value="44">Trincomalee</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName5" id="ncp02">
+          <option value="">Select your district.</option>
+          <option value="46">Anuradhapura</option>
+          <option value="47">Polonnaruva</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName6" id="cp02">
+          <option value="">Select your district.</option>
+          <option value="48">Kandy</option>
+          <option value="49">Matale</option>
+          <option value="50">Nuwara-Eliya</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName7" id="sgp02">
+          <option value="">Select your district.</option>
+          <option value="51">Kegalle</option>
+          <option value="52">Ratnapura</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName8" id="nwp02">
+          <option value="">Select your district.</option>
+          <option value="53">Kurunegala</option>
+          <option value="54">Puttalama</option>
+        </select>
+      </center>
+      <center>
+        <select name="districtName9" id="up02">
+          <option value="">Select your district.</option>
+          <option value="55">Badulla</option>
+          <option value="56">Monaragala</option>
+        </select>
+      </center>
+      <select name="appTime02" id="aTime02">
+        <option value="">Select your Time.</option>
+        <option value="94">08.30 A.M.</option>
+        <option value="95">09.00 A.M.</option>
+        <option value="96">09.30 A.M.</option>
+        <option value="97">10.00 A.M.</option>
+        <option value="97">10.30 A.M.</option>
+        <option value="97">11.00 A.M.</option>
+        <option value="97">11.30 A.M.</option>
+        <option value="97">12.00 A.M.</option>
+        <option value="97">12.30 A.M.</option>
+      </select>
+      <br>
+      <br>
+      <button type="submit" id="btn"><span>Get your Lab Test appointment.</span></button>
+      <br>
+      <button type="reset" id="btn">Reset</button>
+    </form>
+  </div>
+</body>
+<footer>
+  <div class="Fimg">
+    <img src="https://www.kingshospital.lk/images/humanbody-white.png" height="500px" width="300px">
+  </div>
+  <div class="FTC">
+    <h2 id="FHead">Contact With US</h2>
+    <div class="Fcont">
+      <img src="https://pnggrid.com/wp-content/uploads/2021/12/Office-Phone-Icon-PNG-Transparent-Background.png"
+        alt="Phone" height="50px" width="50px" class="FImage">
+      <p class="Ftext">Hotline: 075 852 3498</p>
+      <br>
+    </div>
+    <div class="Fcont">
+      <img src="https://icon-library.com/images/black-email-icon-png/black-email-icon-png-19.jpg" alt="Email" height="50px" width="50px" class="FImage">
+      <p class="Ftext">info@kingshospital.lk</p>
+      <br>
+    </div>
+    <div class="Fcont">
+      <img src="https://www.freeiconspng.com/thumbs/location-icon-png/location-icon-map-png--1.png" alt="Place"
+        height="50px" width="50px" class="FImage">
+      <p class="Ftext">18/A,<br>
+        Evergreen Park Rd,<br>
+        Narahenpita,<br>
+        Colombo 05,<br>
+        Sri Lanka.</p>
+    </div>
+    <br>
+  </div>
+  <a href="https://www.google.com/maps/place/Kings+Hospital+Colombo/@6.8949418,79.8770575,17z/data=!3m1!4b1!4m5!3m4!1s0x3ae25a2bdcb662c5:0xcf6dc296a34a0c21!8m2!3d6.8949365!4d79.8792462"
+    target="_blank"><img src="https://www.kingshospital.lk/images/map-tosite.jpg" height="300px" width="100%"> </a>
+  <div id="Register">© All rights reserved. Kings Hospital.</div>
+</footer>
+
+</html>

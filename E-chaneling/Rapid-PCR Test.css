@@ -1,0 +1,503 @@
+* {
+    margin: 0px;
+}
+
+#LOGO {
+    float: left;
+    margin-left: 75px;
+    margin-top: 0;
+    background-color:white;
+    border-radius: 5px;
+}
+
+#Gall {
+    height: 50px;
+    background-color: rgb(130, 189, 42);
+    padding-right: 10px;
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Green {
+    float: right;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+#Find {
+    margin-right: 30px;
+    color: white;
+    text-decoration: none;
+    margin-top: 5px;
+}
+
+#Tel {
+    color: white;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    margin-top: -5px;
+    z-index: 2;
+    line-height: 20px
+}
+
+nav {
+    height: 10px;
+    box-shadow: rgb(233, 236, 240);
+    margin-right: 0px;
+    margin-left: 300px;
+    width: 70%;
+    
+}
+
+nav ul {
+    padding: 0px;
+    margin: 0px;
+    margin-right: 0px;
+    color: rgb(246, 242, 242);
+    font-style: normal;
+    
+    
+}
+
+nav ul li {
+    line-height: 50px;
+    position: relative;
+    display: inline-block;
+    list-style: none;
+    color: rgb(243, 238, 238);
+    float: left;
+    
+}
+
+
+nav ul li a {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    display: block;
+    padding: 15px;
+    color: rgb(12, 14, 12);
+    text-decoration: wavy;
+    line-height: 30px;
+    font-size: 15px;
+    color: rgb(8, 8, 8);
+    background-color: white;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav ul li a:hover {
+    color: greenyellow;
+
+}
+
+#nav1 {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.n1 {
+    padding-bottom: 5px;
+}
+
+#pcr {
+    
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#SecondH {
+    font-size: 70px;
+    color: rgb(4, 4, 68);
+    margin-left: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#cont {
+    color: gray;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 50px;
+}
+
+#allcont {
+    margin-top: 80px;
+    float: left;
+}
+
+#ImageCont {
+
+    margin-left: 700px;
+    margin-top: 140px;
+
+}
+
+#MHD {
+    margin-left: 50px;
+    font-size: 20px;
+    color: rgb(157, 235, 40);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#OServise {
+    margin-top: 100px;
+    margin-bottom: 0px;
+    margin-left: 50px;
+    font-size: 50px;
+    padding: 0px;
+}
+
+#OServiseContent {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+
+.image {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+
+
+}
+
+.image:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.container1 {
+    float: left;
+}
+
+.overlay1 {
+    margin-left: 50px;
+    margin-right: 500px;
+}
+
+.container2 {
+    margin: 0px;
+}
+
+#Dep {
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+
+}
+
+#line {
+    color: rgb(246, 10, 10);
+    height: 10px;
+    margin-top: 70px;
+    margin-right: 50px;
+
+}
+
+ol li {
+    list-style-type: none;
+}
+
+.discription {
+    text-align: center;
+    font-size: 20px;
+    font-style: oblique;
+    color: bisque;
+}
+
+form {
+    width: 50%;
+    padding: 100px;
+    margin: 100px auto 50px;
+    border: 2px solid rgb(174, 209, 255);
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.appL {
+    float: left;
+}
+
+.appR {
+    float: right;
+}
+
+label {
+    color: rgb(255, 255, 255)
+}
+
+select{
+    width: 250px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+input {
+    width: 250px;
+    border-radius: 5px;
+    height: 20px;
+}
+#mB01, #gn01 {
+    border-radius: 5px;
+ }
+
+textarea {
+    width: 250px;
+    border-radius: 5px;
+}
+
+#endInput {
+    height: 100px;
+}
+
+#btn {
+    width: 250px;
+    height: 40px;
+    color: rgb(31, 33, 158);
+    font-style: italic;
+    background-color: cornflowerblue;
+    border-radius: 10px;
+    border: 1px solid black;
+    transition: all 1s;
+    cursor: pointer;
+    margin: 20px;
+}
+
+#btn span:after {
+    content: '\00bb';
+    opacity: 0;
+    transition: 0.05s;
+    top: 0;
+}
+
+#btn:hover {
+    background-color: rgb(0, 255, 213);
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#btn:hover span {
+    padding-right: 25px;
+}
+
+#btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.errorMsg {
+    color: red;
+    font-weight: bold;
+    font-size: medium;
+    margin-bottom: 7px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)),
+        url(https://img.freepik.com/premium-photo/doctor-with-stethoscope-hand-hospital-background_34200-156.jpg?w=996);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+form select:hover {
+    background-color: rgb(132, 165, 207);
+}
+
+.form001 select:hover {
+    background-color: rgb(80, 87, 175);
+}
+
+.attention {
+    padding-left: 170px;
+    color: rgb(255, 151, 151);
+}
+
+#tc {
+    font-weight: bold;
+    font-style: oblique;
+}
+
+.image{
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+    
+  
+}
+.image:hover{
+    transform: scale(1.1,1.1);
+  }
+.container1{
+    float: left;
+}
+
+.overlay1{
+    margin-left: 50px;
+    margin-right: 500px;
+}
+.container2{
+    margin:0px;
+}
+#Dep{
+    margin-left: 50px;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+
+}
+#line{
+    color: rgb(246, 10, 10);
+    height: 10px;
+    margin-top: 70px;
+    margin-right: 50px;
+    
+}
+footer{
+    background-color:rgb(24, 62, 75);
+    background-size:cover;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: rgb(8, 8, 8);
+    padding-top:auto;
+    margin-top: 100px;
+    
+}
+#FHead{
+ color: rgb(253, 249, 249);
+ margin-left: 400px;
+ font-size: 30px;
+ font-weight: bold;
+ font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ margin-bottom: 20px;
+}
+.Fcont{
+    margin-left: 400px;
+    margin-top: 15px;
+}
+.FImage{
+    
+  
+    margin-top: 0px;
+   float: left;
+    
+}
+.Ftext{
+    
+    font-size: 20px;
+  
+    color: rgb(250, 244, 244);
+    margin-top: 5px;
+    margin-left: 80px;
+}
+  
+
+.FTC{
+    
+    
+    bottom: 200px;
+    right: 16px;
+}
+.Fimg{
+    float: left;
+    opacity: 0.5;
+}
+#Register{
+    text-align: center;
+    color: white;
+}
+
+.Cfloat{
+    float: left;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.card-img-top:hover{
+    transform: scale(1.3,1.3);
+}
+#Department{
+    font-size: 50px;
+    margin-left: 50px;
+    margin-top: 900px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(32, 32, 90);
+}
+.Dep:hover{
+    color: greenyellow;
+    margin-top: 10px;
+}
+#Depall{
+    float: left;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.Dep{
+    margin-top: 12px;
+    text-align: right;
+    font-weight: bold;
+    font-size: 19px;
+    cursor: pointer;
+}
+.Servise{
+    margin-left: 600px;
+    margin-right: 200px;
+    border: 1px solid rgb(69, 68, 68);
+    margin-top: 50px;
+    padding: 20px;
+    padding-bottom: 100px;
+    border-radius: 20px;
+    
+}
+h1{
+    color: rgb(123, 193, 18);
+}
+.DHead{
+    color: greenyellow ;
+}
+.Dpasage{
+    line-height: 30px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.List{
+    line-height: 0px;
+    font-size: 20px;
+    color: gray;
+    margin-top: 50px; 
+    margin-bottom: 50px;
+}
+.MoreD{
+    text-decoration: none;
+    
+    
+    color: white;
+    background-color: greenyellow;
+    padding-right: 20px;
+    margin-right: 50px;
+    margin-top: 0px;
+    font-size: 30px;
+    padding: 10px;
+    
+}
